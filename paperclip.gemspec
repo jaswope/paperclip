@@ -27,6 +27,7 @@ spec = Gem::Specification.new do |s|
   s.requirements << "ImageMagick"
   s.add_dependency 'activerecord'
   s.add_dependency 'activesupport'
+  s.add_dependency 'ruby-filemagic'
   s.add_development_dependency 'shoulda'
   s.add_development_dependency 'appraisal'
   s.add_development_dependency 'mocha'
